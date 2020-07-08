@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Lora&family=Montserrat&display=swap");
+
+html,
+body,
+nav,
+.sidenav {
+  background-color: #181719;
+  box-shadow: none;
+}
+
+section {
+  margin: 15vh 3vw;
+}
+
+p {
+  color: white;
+}
+
+.sidenav {
+  width: 100%;
+}
+
+.sidenav > li > a {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.sidenav > li > a > i.material-icons {
+  margin-right: 0;
+  margin-top: 10px;
+  color: white;
+}
+
+.sidenav li:nth-of-type(2) {
+  margin-top: 23vh;
+}
+
+.sidenav li + li {
+  margin-top: 2vh;
+  text-align: center;
+}
+
+div > a.brand-logo {
+  margin-left: 2rem;
+  margin-top: 1.3rem;
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border: 1px solid #ffffff;
+  line-height: normal;
+}
+
+.heading {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3em;
+  line-height: 61px;
+}
+
+.content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 29px;
+}
+
+.navigate {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 3rem;
+}
+
+.navigate i {
+  vertical-align: bottom;
+}
+
+.materialboxed {
+  padding: 1vw;
+  width: 100%;
+  height: auto;
+}
+
+.div-overlay {
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  margin-left: 15vw;
+  margin-right: 6vw;
+  top: 75%;
+}
+
+.card-content {
+  background-color: #181719;
+}
+
+.card-content .about-content {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.collection {
+  border: none;
+}
+
+.collection .collection-item {
+  background-color: #181719;
+  padding: 0;
+}
+
+.collection .collection-item.avatar {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
+.collection .collection-item.avatar:not(.circle-clipper) > .circle {
+  width: 45px;
+  height: 45px;
+  left: 7px;
+}
+
+.collection .subtitle {
+  font-size: 14px;
+  color: #828282;
+}
+
+footer {
+  margin-top: 13rem;
+}
+
+footer p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 17px;
+  color: #a9a9a9;
+  display: inline-block;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  section {
+    margin-top: 0;
+  }
+
+  div > a.brand-logo {
+    margin-left: 0;
+  }
+
+  footer p {
+    border-top: 1px solid #a9a9a9;
+  }
+}
